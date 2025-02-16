@@ -72,7 +72,7 @@ namespace csc232
      * @brief Generate a quasi-random UUID.
      * @return A string representation of a quasi-random UUID.
      */
-    std::string generate_uuid( )
+    inline std::string generate_uuid( )
     {
         static std::random_device random_device;
         static std::mt19937 random_number_generator( random_device( ));
